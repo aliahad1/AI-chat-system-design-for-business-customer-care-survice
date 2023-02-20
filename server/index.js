@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://127.0.0.1:5173", "https://chat.aliahad.com"],
+    origin: ["http://127.0.0.1:5173", "https://chat.aliahad.com", "https://ai-chat-system-design-for-business-customer-care-survice-mkin.vercel.app"],
     credentials: true,
   })
 );
